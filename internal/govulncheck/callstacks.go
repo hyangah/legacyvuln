@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/vuln/internal"
-	"golang.org/x/vuln/vulncheck"
+	"github.com/hyangah/legacyvuln/internal"
+	"github.com/hyangah/legacyvuln/vulncheck"
 )
 
 // updateInitPositions populates non-existing positions of init functions

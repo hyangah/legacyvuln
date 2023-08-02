@@ -10,8 +10,8 @@ import (
 	"os"
 	"strings"
 
+	"github.com/hyangah/legacyvuln/vulncheck"
 	"golang.org/x/tools/go/packages"
-	"golang.org/x/vuln/vulncheck"
 )
 
 var (

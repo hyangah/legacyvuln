@@ -13,10 +13,10 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
+	"github.com/hyangah/legacyvuln/internal/test"
+	"github.com/hyangah/legacyvuln/osv"
+	"github.com/hyangah/legacyvuln/vulncheck"
 	"golang.org/x/tools/go/packages/packagestest"
-	"golang.org/x/vuln/internal/test"
-	"golang.org/x/vuln/osv"
-	"golang.org/x/vuln/vulncheck"
 )
 
 func TestUniqueCallStack(t *testing.T) {

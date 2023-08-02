@@ -10,7 +10,7 @@ import (
 	"os"
 
 	"github.com/google/go-cmp/cmp"
-	"golang.org/x/vuln/exp/govulncheck"
+	"github.com/hyangah/legacyvuln/exp/govulncheck"
 )
 
 const usage = `test helper for examining the output of running govulncheck on k8s@v1.15.11.

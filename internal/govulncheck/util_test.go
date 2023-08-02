@@ -7,8 +7,8 @@ package govulncheck
 import (
 	"testing"
 
-	"golang.org/x/vuln/osv"
-	"golang.org/x/vuln/vulncheck"
+	"github.com/hyangah/legacyvuln/osv"
+	"github.com/hyangah/legacyvuln/vulncheck"
 )
 
 func TestPkgPath(t *testing.T) {

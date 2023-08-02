@@ -11,12 +11,12 @@ import (
 	"go/types"
 	"strings"
 
+	"github.com/hyangah/legacyvuln/osv"
 	"golang.org/x/tools/go/callgraph"
 	"golang.org/x/tools/go/callgraph/cha"
 	"golang.org/x/tools/go/callgraph/vta"
 	"golang.org/x/tools/go/ssa/ssautil"
 	"golang.org/x/tools/go/types/typeutil"
-	"golang.org/x/vuln/osv"
 
 	"golang.org/x/tools/go/ssa"
 )

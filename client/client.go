@@ -42,11 +42,11 @@ import (
 	"strings"
 	"time"
 
+	"github.com/hyangah/legacyvuln/internal"
+	"github.com/hyangah/legacyvuln/internal/derrors"
+	"github.com/hyangah/legacyvuln/internal/web"
+	"github.com/hyangah/legacyvuln/osv"
 	"golang.org/x/mod/module"
-	"golang.org/x/vuln/internal"
-	"golang.org/x/vuln/internal/derrors"
-	"golang.org/x/vuln/internal/web"
-	"golang.org/x/vuln/osv"
 )
 
 // DBIndex contains a mapping of vulnerable packages to the last time a new

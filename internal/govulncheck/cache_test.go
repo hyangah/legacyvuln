@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/hyangah/legacyvuln/client"
+	"github.com/hyangah/legacyvuln/osv"
 	"golang.org/x/sync/errgroup"
-	"golang.org/x/vuln/client"
-	"golang.org/x/vuln/osv"
 )
 
 func TestCache(t *testing.T) {

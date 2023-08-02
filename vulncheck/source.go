@@ -11,12 +11,12 @@ import (
 	"sort"
 	"sync"
 
+	"github.com/hyangah/legacyvuln/internal"
+	"github.com/hyangah/legacyvuln/internal/derrors"
+	"github.com/hyangah/legacyvuln/internal/semver"
+	"github.com/hyangah/legacyvuln/osv"
 	"golang.org/x/tools/go/callgraph"
 	"golang.org/x/tools/go/ssa"
-	"golang.org/x/vuln/internal"
-	"golang.org/x/vuln/internal/derrors"
-	"golang.org/x/vuln/internal/semver"
-	"golang.org/x/vuln/osv"
 )
 
 // Source detects vulnerabilities in packages. The result will contain:

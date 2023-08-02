@@ -12,12 +12,12 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/hyangah/legacyvuln/client"
+	"github.com/hyangah/legacyvuln/exp/govulncheck"
+	gvc "github.com/hyangah/legacyvuln/internal/govulncheck"
+	"github.com/hyangah/legacyvuln/vulncheck"
 	"golang.org/x/tools/go/buildutil"
 	"golang.org/x/tools/go/packages"
-	"golang.org/x/vuln/client"
-	"golang.org/x/vuln/exp/govulncheck"
-	gvc "golang.org/x/vuln/internal/govulncheck"
-	"golang.org/x/vuln/vulncheck"
 )
 
 var (

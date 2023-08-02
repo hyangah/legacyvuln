@@ -9,11 +9,11 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/hyangah/legacyvuln/internal/test"
 	"golang.org/x/tools/go/callgraph/cha"
 	"golang.org/x/tools/go/packages/packagestest"
 	"golang.org/x/tools/go/ssa"
 	"golang.org/x/tools/go/ssa/ssautil"
-	"golang.org/x/vuln/internal/test"
 )
 
 // funcNames returns a set of function names for `funcs`.

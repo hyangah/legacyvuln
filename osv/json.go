@@ -15,8 +15,8 @@ import (
 	"sort"
 	"time"
 
+	isem "github.com/hyangah/legacyvuln/internal/semver"
 	"golang.org/x/mod/semver"
-	isem "golang.org/x/vuln/internal/semver"
 )
 
 type AffectsRangeType string

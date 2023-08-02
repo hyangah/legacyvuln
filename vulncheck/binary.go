@@ -14,10 +14,10 @@ import (
 	"runtime/debug"
 	"strings"
 
+	"github.com/hyangah/legacyvuln/internal/derrors"
+	"github.com/hyangah/legacyvuln/internal/semver"
+	"github.com/hyangah/legacyvuln/vulncheck/internal/binscan"
 	"golang.org/x/tools/go/packages"
-	"golang.org/x/vuln/internal/derrors"
-	"golang.org/x/vuln/internal/semver"
-	"golang.org/x/vuln/vulncheck/internal/binscan"
 )
 
 // Binary detects presence of vulnerable symbols in exe.

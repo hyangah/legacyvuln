@@ -7,7 +7,7 @@ package internal
 import (
 	"testing"
 
-	"golang.org/x/vuln/internal/testenv"
+	"github.com/hyangah/legacyvuln/internal/testenv"
 )
 
 func TestGoEnv(t *testing.T) {

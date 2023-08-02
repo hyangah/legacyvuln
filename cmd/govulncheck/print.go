@@ -12,10 +12,10 @@ import (
 	"strings"
 	"text/template"
 
+	"github.com/hyangah/legacyvuln/exp/govulncheck"
+	"github.com/hyangah/legacyvuln/internal"
+	"github.com/hyangah/legacyvuln/osv"
 	"golang.org/x/exp/maps"
-	"golang.org/x/vuln/exp/govulncheck"
-	"golang.org/x/vuln/internal"
-	"golang.org/x/vuln/osv"
 )
 
 func printJSON(r *govulncheck.Result) error {

@@ -7,8 +7,8 @@ package gosym
 import (
 	"strings"
 
+	"github.com/hyangah/legacyvuln/internal/semver"
 	sv "golang.org/x/mod/semver"
-	"golang.org/x/vuln/internal/semver"
 )
 
 const (

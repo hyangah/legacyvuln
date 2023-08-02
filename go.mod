@@ -1,4 +1,4 @@
-module golang.org/x/vuln
+module github.com/hyangah/legacyvuln
 
 go 1.18
 

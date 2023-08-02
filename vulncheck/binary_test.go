@@ -19,9 +19,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
+	"github.com/hyangah/legacyvuln/internal/semver"
+	"github.com/hyangah/legacyvuln/vulncheck/internal/binscan"
 	"golang.org/x/tools/go/packages/packagestest"
-	"golang.org/x/vuln/internal/semver"
-	"golang.org/x/vuln/vulncheck/internal/binscan"
 )
 
 // TODO: we build binary programatically, so what if the underlying tool chain changes?

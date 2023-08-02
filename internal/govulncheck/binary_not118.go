@@ -12,7 +12,7 @@ import (
 	"errors"
 	"io"
 
-	"golang.org/x/vuln/vulncheck"
+	"github.com/hyangah/legacyvuln/vulncheck"
 )
 
 func binary(ctx context.Context, exe io.ReaderAt, cfg *vulncheck.Config) (_ *vulncheck.Result, err error) {

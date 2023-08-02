@@ -7,11 +7,11 @@ package govulncheck
 import (
 	"strings"
 
+	"github.com/hyangah/legacyvuln/internal"
+	isem "github.com/hyangah/legacyvuln/internal/semver"
+	"github.com/hyangah/legacyvuln/osv"
+	"github.com/hyangah/legacyvuln/vulncheck"
 	"golang.org/x/mod/semver"
-	"golang.org/x/vuln/internal"
-	isem "golang.org/x/vuln/internal/semver"
-	"golang.org/x/vuln/osv"
-	"golang.org/x/vuln/vulncheck"
 )
 
 // latestFixed returns the latest fixed version in the list of affected ranges,

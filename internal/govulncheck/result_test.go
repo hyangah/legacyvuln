@@ -17,20 +17,20 @@ func TestStackFrame(t *testing.T) {
 	}{
 		{
 			&StackFrame{
-				PkgPath:  "golang.org/x/vuln/vulncheck",
+				PkgPath:  "github.com/hyangah/legacyvuln/vulncheck",
 				FuncName: "Foo",
 				Position: token.Position{Filename: "some/path/file.go", Line: 12},
 			},
-			"golang.org/x/vuln/vulncheck.Foo",
+			"github.com/hyangah/legacyvuln/vulncheck.Foo",
 			"some/path/file.go:12",
 		},
 		{
 			&StackFrame{
-				PkgPath:  "golang.org/x/vuln/vulncheck",
-				RecvType: "golang.org/x/vuln/vulncheck.Bar",
+				PkgPath:  "github.com/hyangah/legacyvuln/vulncheck",
+				RecvType: "github.com/hyangah/legacyvuln/vulncheck.Bar",
 				FuncName: "Foo",
 			},
-			"golang.org/x/vuln/vulncheck.Bar.Foo",
+			"github.com/hyangah/legacyvuln/vulncheck.Bar.Foo",
 			"",
 		},
 	} {

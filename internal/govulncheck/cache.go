@@ -11,9 +11,9 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/vuln/client"
-	"golang.org/x/vuln/internal"
-	"golang.org/x/vuln/osv"
+	"github.com/hyangah/legacyvuln/client"
+	"github.com/hyangah/legacyvuln/internal"
+	"github.com/hyangah/legacyvuln/osv"
 )
 
 // The cache uses a single JSON index file for each vulnerability database

@@ -14,7 +14,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/vuln/internal/buildtest"
+	"github.com/hyangah/legacyvuln/internal/buildtest"
 )
 
 func dotest(t *testing.T) (binaryName string, cleanup func()) {

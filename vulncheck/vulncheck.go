@@ -11,10 +11,10 @@ import (
 	"go/types"
 	"strings"
 
+	"github.com/hyangah/legacyvuln/client"
+	"github.com/hyangah/legacyvuln/osv"
 	"golang.org/x/exp/slices"
 	"golang.org/x/tools/go/packages"
-	"golang.org/x/vuln/client"
-	"golang.org/x/vuln/osv"
 )
 
 // Config is used for configuring vulncheck algorithms.

@@ -5,7 +5,7 @@
 // Package govulncheck provides an experimental govulncheck API.
 package govulncheck
 
-import "golang.org/x/vuln/internal/govulncheck"
+import "github.com/hyangah/legacyvuln/internal/govulncheck"
 
 var (
 	// Source reports vulnerabilities that affect the analyzed packages.

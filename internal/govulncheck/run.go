@@ -11,8 +11,8 @@ import (
 	"io"
 	"sort"
 
-	"golang.org/x/vuln/osv"
-	"golang.org/x/vuln/vulncheck"
+	"github.com/hyangah/legacyvuln/osv"
+	"github.com/hyangah/legacyvuln/vulncheck"
 )
 
 // Source reports vulnerabilities that affect the analyzed packages.

@@ -10,9 +10,9 @@ import (
 	"go/token"
 	"strings"
 
+	"github.com/hyangah/legacyvuln/client"
+	"github.com/hyangah/legacyvuln/osv"
 	"golang.org/x/tools/go/packages"
-	"golang.org/x/vuln/client"
-	"golang.org/x/vuln/osv"
 )
 
 // LoadMode is the level of information needed for each package
